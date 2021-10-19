@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 80%;
+    margin: 20px auto;
+    height: 5rem;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    justify-items: baseline;
+}
+
+header > .logo{
+    background: rgb(158, 136, 136);
+    width: 400px;
+    height: 5rem;
+}
+header > h1 {
+    font-size: 1.3rem;
+    line-height: 5rem;
+    text-align: center;
+    color: red;
+}
+header > .buttom{
+    height: 20px;
+    padding: 5px;
+    border: 2px solid red;
+    justify-items: center;
+    margin: auto 0;
+    border-radius: 5px;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    background: rgb(122, 118, 118);
+    padding: 5% 0;
+}
+
+main > .menu{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+main > .menu > .menu__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+main > .menu > .menu__row > .menu__row_item {
+    border: 2px solid rgb(175, 63, 63);
+    width: 100%;
+    text-align:center;
+    justify-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid red;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    background: #fff;
+    color: red;
+    transition: all 600ms ease;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+main > .menu > .menu__row > .menu__row_item:hover,
+header > .buttom:hover {
+    color:#fff;
+    background: red;
+}
+
+main > .menu > .menu__row {
+    background: yellow;
+    border: 1px solid #000;
+}
